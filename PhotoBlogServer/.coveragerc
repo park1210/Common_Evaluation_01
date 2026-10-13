@@ -1,0 +1,14 @@
+[run]
+source = blog
+omit =
+    */migrations/*
+    */__init__.py
+    */apps.py
+    */admin.py
+
+[report]
+show_missing = True
+skip_covered = False
+
+[html]
+directory = htmlcov
